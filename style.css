@@ -1,0 +1,67 @@
+:root {
+--background_top: url("./images/background_top.jpg");
+--white: rgb(253, 253, 183);
+/* CSS HEX */
+--celtic-blue: #006BDEff;
+--medium-blue: #001CBEff;
+--international-klein-blue: #0028A8ff;
+--dark-blue: #0000ABff;
+--jordy-blue: #9BCAF7ff;
+    
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: darkblue;
+  }
+
+.navbar a {
+    float: left;    
+    display: block;
+    color: white; 
+    text-align: center; 
+    padding: 14px 20px; 
+    text-decoration: none; 
+  }
+  
+  
+  .navbar a:hover {
+    color: black; 
+    background-color: #ddd; 
+  }
+  
+  .navbar a.active {
+    background-color: var(--jordy-blue); 
+    color: black; 
+  }
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh; 
+}
+
+.Home_top {
+    background-image: url("./images/jakob-owens-dO8qMqWimo8-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    width: 100%;
+    flex-grow: 10;
+}
+
+.Home_top h1  {
+    padding: 20px;
+    text-align: center;
+    color: var(--jordy-blue);
+    text-shadow: 2px 2px var(--dark-blue);
+    font-size: 300%;
+    
+}
+
+.Home_top h2  {
+    text-align: center;
+    color: var(--jordy-blue);
+    text-shadow: 2px 2px var(--dark-blue);
+    
+}
