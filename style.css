@@ -99,3 +99,15 @@ body {
   text-shadow: 2px 2px var(--celtic-blue);
   font-family: sans-serif;
 }
+
+#four_box {
+  display: flex;
+  flex-wrap: wrap; /* Allow flex items to wrap to the next row */
+  justify-content: center; /* Center items horizontally */
+}
+
+.person {
+  width: 40%;
+  background-color: pink;
+  margin: 10px; /* Add some margin between the boxes */
+}
